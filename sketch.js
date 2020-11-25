@@ -136,6 +136,10 @@ function draw() {
       reset();
       touches = []
     }
+    if(mousePressedOver(restart)){
+      reset();
+      
+    }
   }
   
   
