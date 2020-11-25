@@ -136,13 +136,11 @@ function draw() {
       reset();
       touches = []
     }
-    if(mousePressedOver(restart)){
-      reset();
-      
-    }
+    
   }
-  
-  
+    if(mousePressedOver(restart)){
+      reset(); 
+    }
   drawSprites();
 }
 
